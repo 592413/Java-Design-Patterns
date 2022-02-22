@@ -16,6 +16,11 @@ public class Client {
 		
 		System.out.println(lazysingleton1 == lazysingleton2);
 		
+		LazyRegistryIODH lazyRegistryIODH1= LazyRegistryIODH.getInstance();
+		
+		LazyRegistryIODH lazyRegistryIODH2= LazyRegistryIODH.getInstance();
+		
+		System.out.println(lazyRegistryIODH1 == lazyRegistryIODH2);
 		
 	}
 

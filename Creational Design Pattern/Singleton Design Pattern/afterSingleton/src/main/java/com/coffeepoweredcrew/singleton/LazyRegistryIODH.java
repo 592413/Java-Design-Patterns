@@ -11,7 +11,7 @@ public class LazyRegistryIODH {
 	}
 	
 	private static class RegistryHolder {
-		static LazyRegistryIODH INSTANACE = new LazyRegistryIODH();
+		static final LazyRegistryIODH INSTANACE = new LazyRegistryIODH();
 	}
 	
 	public static LazyRegistryIODH getInstance() {
